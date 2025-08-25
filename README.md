@@ -10,12 +10,12 @@ Built using **React.js (frontend), Node.js + Express (backend), MongoDB (databas
 - [Features](#Features)
 - [Tech Stack](#TeckStack)
 - [Project Structure](#ProjectStructure)
-- [Links](#links)
 - [Setup Instructions](#SetupInstructions)
     - [Clone Repository](#CloneRepository)
     - [Backend Setup](#BackendSetup)
     - [Frontend Setup](#FrontendSetup)
 - [API Testing](#APITesting)
+-[screenShots](#screenShots)
 - [Author](#author)
 
 ## Features
@@ -44,10 +44,6 @@ quiz-app/ \
 |-- frontend/ # React.js + CSS
 
 ---
-
-### Links
-
-- [ Live Site URL ]() 
 
 ## Setup Instructions
 
@@ -153,7 +149,15 @@ curl -X POST http://localhost:5000/api/exam/submit
 ```
 *Replace <YOUR_JWT_TOKEN> with the token received from login.*
 
-## Author
+### Screenshots
+
+![RegisterPage](assets/screenshots/Quiz_Application_RegisterPage.png)
+![LoginPage](assets/screenshots/Quiz_Application_LoginPage.png)
+![ExamPage](assets/screenshots/Quiz_Application_ExamPage.png)
+![](assets/screenshots/Quiz_Application_ExamPage_Submit.png)
+![ResultsPage](assets/screenshots/Quiz_Application_ResultsPage.png)
+
+### Author
 
 - Shrikanth Dev
 - [GitHub](https://github.com/shrikanth-dev)
